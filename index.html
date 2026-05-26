@@ -1,0 +1,202 @@
+export default function AceMultiServicesWebsite() {
+  return (
+    <div className="min-h-screen bg-gray-100 text-gray-800">
+      {/* Header */}
+      <header className="bg-black text-white p-6 shadow-lg">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
+          <div>
+            <h1 className="text-3xl font-bold text-yellow-400">
+              ACE MULTI-SERVICES CENTER
+            </h1>
+            <p className="text-sm mt-1">
+              Professional E-Services & Entertainment Solutions
+            </p>
+          </div>
+
+          <nav className="mt-4 md:mt-0 flex gap-6 text-sm">
+            <a href="#home" className="hover:text-yellow-400">Home</a>
+            <a href="#services" className="hover:text-yellow-400">Services</a>
+            <a href="#music" className="hover:text-yellow-400">Entertainment</a>
+            <a href="#contact" className="hover:text-yellow-400">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      {/* Hero Section */}
+      <section
+        id="home"
+        className="bg-gradient-to-r from-black to-gray-800 text-white py-20 px-6"
+      >
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+          <div>
+            <h2 className="text-5xl font-bold leading-tight mb-6">
+              Fast & Reliable <span className="text-yellow-400">E-Services</span>
+            </h2>
+
+            <p className="text-lg text-gray-300 mb-6">
+              ACE MULTI-SERVICES CENTER provides professional online services
+              including IREMBO services, RRA services, RDB services, disk
+              burning, document assistance, and entertainment services for
+              ceremonies and events.
+            </p>
+
+            <button className="bg-yellow-400 text-black px-6 py-3 rounded-2xl font-semibold hover:bg-yellow-300 transition">
+              Contact Us Today
+            </button>
+          </div>
+
+          <div className="bg-white/10 rounded-3xl p-8 backdrop-blur-md shadow-2xl">
+            <h3 className="text-2xl font-bold mb-4 text-yellow-400">
+              Why Choose Us?
+            </h3>
+
+            <ul className="space-y-4 text-gray-200">
+              <li>✔ Fast and trusted services</li>
+              <li>✔ Affordable prices</li>
+              <li>✔ Professional customer support</li>
+              <li>✔ Event music & entertainment services</li>
+              <li>✔ Available for weddings, bars, clubs & parties</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Services Section */}
+      <section id="services" className="py-20 px-6 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-bold text-center mb-12">
+            Our Services
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-gray-100 p-6 rounded-3xl shadow-md hover:shadow-xl transition">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-500">
+                IREMBO Services
+              </h3>
+              <p>
+                Assistance with government services, certificates,
+                applications, and online submissions.
+              </p>
+            </div>
+
+            <div className="bg-gray-100 p-6 rounded-3xl shadow-md hover:shadow-xl transition">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-500">
+                RRA Services
+              </h3>
+              <p>
+                Tax declarations, TIN support, invoices, and other Rwanda
+                Revenue Authority services.
+              </p>
+            </div>
+
+            <div className="bg-gray-100 p-6 rounded-3xl shadow-md hover:shadow-xl transition">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-500">
+                RDB Services
+              </h3>
+              <p>
+                Business registration support and professional assistance with
+                online applications.
+              </p>
+            </div>
+
+            <div className="bg-gray-100 p-6 rounded-3xl shadow-md hover:shadow-xl transition">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-500">
+                Disk Burning
+              </h3>
+              <p>
+                CD/DVD burning services for music, videos, documents, and data
+                storage.
+              </p>
+            </div>
+
+            <div className="bg-gray-100 p-6 rounded-3xl shadow-md hover:shadow-xl transition">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-500">
+                Document Services
+              </h3>
+              <p>
+                Printing, scanning, photocopying, internet access, and digital
+                support services.
+              </p>
+            </div>
+
+            <div className="bg-gray-100 p-6 rounded-3xl shadow-md hover:shadow-xl transition">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-500">
+                Online Assistance
+              </h3>
+              <p>
+                Help with online forms, applications, email setup, and other
+                digital tasks.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Entertainment Section */}
+      <section id="music" className="py-20 px-6 bg-black text-white">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-6 text-yellow-400">
+            Entertainment Services
+          </h2>
+
+          <p className="max-w-3xl mx-auto text-lg text-gray-300 mb-12">
+            We also provide professional music entertainment services for house
+            parties, clubs, bars, weddings, ceremonies, birthdays, and special
+            events.
+          </p>
+
+          <div className="grid md:grid-cols-4 gap-6">
+            <div className="bg-gray-800 p-6 rounded-2xl">
+              <h3 className="font-bold text-xl mb-2">House Parties</h3>
+            </div>
+
+            <div className="bg-gray-800 p-6 rounded-2xl">
+              <h3 className="font-bold text-xl mb-2">Weddings</h3>
+            </div>
+
+            <div className="bg-gray-800 p-6 rounded-2xl">
+              <h3 className="font-bold text-xl mb-2">Clubs & Bars</h3>
+            </div>
+
+            <div className="bg-gray-800 p-6 rounded-2xl">
+              <h3 className="font-bold text-xl mb-2">Ceremonies</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact" className="py-20 px-6 bg-white">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-6">Contact Us</h2>
+
+          <p className="text-lg text-gray-600 mb-8">
+            Reach out to ACE MULTI-SERVICES CENTER for reliable digital services
+            and event entertainment.
+          </p>
+
+          <div className="bg-gray-100 rounded-3xl p-8 shadow-md">
+            <p className="mb-4">
+              <strong>Phone:</strong> +250 794 044 114
+            </p>
+
+            <p className="mb-4">
+              <strong>Email:</strong> djacerw@gmail.com
+            </p>
+
+            <p>
+              <strong>Location:</strong> Kigali, Rwanda
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-black text-gray-400 py-6 text-center">
+        <p>
+          © 2026 ACE MULTI-SERVICES CENTER. All rights reserved.
+        </p>
+      </footer>
+    </div>
+  );
+}
